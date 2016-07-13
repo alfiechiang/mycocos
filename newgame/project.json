@@ -1,0 +1,41 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "cocostudio"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        "src/mainView/background.js",
+        "src/mainView/button.js",
+        "src/mapView/background.js",
+        "src/mapView/flagbutton.js",
+        "src/playScene/background.js",
+        "src/playScene/checkScene.js",
+        "src/playScene/Enemy/enemy.js",
+        "src/playScene/MenuSprite/MenuSprite.js",
+        "src/playScene2/playScene2.js",
+        "src/playScene2/backgroundLayer/backgroundLayer.js",
+        "src/playScene2/SpriteLayer/SpriteLayer.js",
+        "src/playScene2/SpriteLayer/Sprite/House/magicHouse.js",
+        "src/playScene2/SpriteLayer/Sprite/Enemy/ProduceMonster.js",
+        "src/playScene2/SpriteLayer/Sprite/Enemy/Enemy1.js",
+        "src/playScene2/SpriteLayer/Sprite/Enemy/Enemy2.js",
+        "src/playScene2/SpriteLayer/Sprite/Bullet/bullet.js",
+        "src/playScene2/SpriteLayer/Sprite/BackApproach/BumpDetect.js",
+        "src/playScene2/SpriteLayer/Sprite/House/purpleHouse.js",
+        "src/playScene2/SpriteLayer/Sprite/Bullet/purplebullet.js",
+        "src/playScene2/SpriteLayer/Sprite/Heart.js",
+        "src/playScene2/SpriteLayer/Sprite/Coin.js",
+        "src/playScene2/backgroundLayer/LoseMenu.js",
+        "src/playScene2/SpriteLayer/Sprite/Enemy/Enemy3.js"
+    ]
+}
